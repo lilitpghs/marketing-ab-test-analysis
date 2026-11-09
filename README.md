@@ -4,7 +4,7 @@ Should a company keep paying for an ad campaign, and how could it spend better? 
 
 **Tools:** Python (pandas), SQL (SQLite), Matplotlib
 
-**[View the full analysis notebook](marketing_ab_test.ipynb)**
+
 
 ## Key findings
 
@@ -44,7 +44,6 @@ The data is [Marketing A/B Testing](https://www.kaggle.com/datasets/faviovaz/mar
 | Repeated users | 0 |
 | Average ads or PSAs seen | 24.8 in both groups |
 
-The CSV isn't in this repository, so download it from Kaggle to run the notebook.
 
 ## Method
 
@@ -72,22 +71,3 @@ The CSV isn't in this repository, so download it from Kaggle to run the notebook
 └── README.md
 ```
 
-## Run it yourself
-
-1. Install the dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Download `marketing_AB.csv` from [Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) and put it next to the notebook.
-
-3. Open the notebook and run all cells:
-
-   ```bash
-   jupyter notebook marketing_ab_test.ipynb
-   ```
-
-## Author
-
-**Lilit Poghosyan**
