@@ -4,7 +4,7 @@ An end-to-end analysis of a marketing A/B test with 588,101 users: from data che
 
 **Tools:** Python (pandas, NumPy, SciPy, statsmodels), SQL (SQLite), Matplotlib, Jupyter Notebook
 
-**[Open the full analysis notebook](marketing_ab_test_analysis.ipynb)**
+
 
 ## Business problem
 
