@@ -99,7 +99,7 @@ Ad users are compared with PSA users inside the same exposure band, which remove
 
 1. **Data quality checks and cleaning:** missing values, duplicates, invalid values, column names and types.
 2. **Exploratory data analysis:** group sizes, distribution of ads seen, conversion by exposure, day and hour, and whether the two groups are comparable.
-3. **A/B test:** conversion rates pulled with SQL, two-proportion z-test, chi-square test, 95% confidence intervals for the absolute and relative lift, a simulation check and the minimum detectable effect.
+3. **A/B test:** conversion rates pulled with SQL, two-proportion z-test, chi-square test, 95% confidence intervals for the absolute lift, a simulation check and the minimum detectable effect.
 4. **Business impact:** incremental conversions and impressions per extra conversion, with example cost scenarios.
 5. **Breakdown:** lift by number of ads seen (ad vs PSA within the same exposure band) and a check that the result holds across days of the week.
 6. **Recommendations, limitations and next steps.**
@@ -129,26 +129,7 @@ Ad users are compared with PSA users inside the same exposure band, which remove
 │   ├── ab_test_summary.csv            # Headline metrics
 │   ├── lift_by_exposure.csv           # Lift by number of ads seen
 │   └── lift_by_day.csv                # Lift by day of week
-├── requirements.txt                   # Python packages
 └── README.md
 ```
-
-## How to run it
-
-1. Download `marketing_AB.csv` from [Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) and put it in this folder, next to the notebook. The file is not included in the repository.
-
-2. Install the packages (they are already included in a standard Anaconda installation):
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Open the notebook in Jupyter (from Anaconda Navigator, or from a terminal) and choose **Kernel → Restart & Run All**:
-
-   ```bash
-   jupyter notebook marketing_ab_test_analysis.ipynb
-   ```
-
-## Author
 
 **Lilit Poghosyan**
