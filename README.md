@@ -4,7 +4,7 @@ An end-to-end analysis of a marketing A/B test with 588,101 users: from data che
 
 **Tools:** Python (pandas, NumPy, SciPy, statsmodels), SQL (SQLite), Matplotlib, Jupyter Notebook
 
-**[Open the full analysis notebook](marketing_ab_test_analysis.ipynb)**
+
 
 ## Business problem
 
@@ -124,27 +124,6 @@ The only cleaning needed was dropping the row counter column, renaming the colum
 │   ├── 06_conversion_rate_ab.png
 │   └── 07_incremental_conversions.png
 ├── outputs/
-│   └── ab_test_summary.csv            # Headline metrics saved by the notebook
-├── requirements.txt                   # Python packages
 └── README.md
 ```
 
-## How to run it
-
-1. Download `marketing_AB.csv` from [Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) and put it in this folder, next to the notebook. The file is not included in the repository.
-
-2. Install the packages (they are already included in a standard Anaconda installation):
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Open the notebook in Jupyter (from Anaconda Navigator, or from a terminal) and choose **Kernel → Restart & Run All**:
-
-   ```bash
-   jupyter notebook marketing_ab_test_analysis.ipynb
-   ```
-
-## Author
-
-**Lilit Poghosyan**
