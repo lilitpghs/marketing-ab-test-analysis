@@ -128,8 +128,7 @@ Ad users are compared with PSA users inside the same exposure band, which remove
 ├── outputs/                           # Result tables saved by the notebook (CSV)
 │   ├── ab_test_summary.csv            # Headline metrics
 │   ├── lift_by_exposure.csv           # Lift by number of ads seen
-│   └── lift_by_day.csv                # Lift by day of week
-├── requirements.txt                   # Python packages
+│   └── lift_by_day.csv                # Lift by day of week                 
 └── README.md
 ```
 
