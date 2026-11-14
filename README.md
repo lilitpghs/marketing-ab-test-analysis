@@ -36,9 +36,9 @@ A marketing team spends budget on an online ad campaign and wants to know whethe
 | 2 | How many additional conversions did the ads generate? | About **4,343** (95% CI 3,360 to 5,326), around 30% of the ad group's 14,423 conversions. The other 70% would likely have happened anyway |
 | 3 | How much advertising per additional conversion? | About **3,227 ad impressions** (14,014,701 impressions shown ÷ 4,343 extra conversions) |
 
-![Conversion rate by group](figures/06_conversion_rate_ab.png)
+![Conversion rate by group](figures/04_conversion_rate_ab.png)
 
-![Incremental conversions](figures/07_incremental_conversions.png)
+![Incremental conversions](figures/05_incremental_conversions.png)
 
 ### Statistical test
 
