@@ -4,7 +4,7 @@ An end-to-end analysis of a marketing A/B test with 588,101 users: from data che
 
 **Tools:** Python (pandas, NumPy, SciPy, statsmodels), SQL (SQLite), Matplotlib, Seaborn, Jupyter Notebook
 
-**[Open the full analysis notebook](marketing_ab_test_analysis.ipynb)**
+
 
 ## Business problem
 
@@ -133,22 +133,3 @@ Ad users are compared with PSA users inside the same exposure band, which remove
 └── README.md
 ```
 
-## How to run it
-
-1. Download `marketing_AB.csv` from [Kaggle](https://www.kaggle.com/datasets/faviovaz/marketing-ab-testing) and put it in this folder, next to the notebook. The file is not included in the repository.
-
-2. Install the packages (they are already included in a standard Anaconda installation):
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Open the notebook in Jupyter (from Anaconda Navigator, or from a terminal) and choose **Kernel → Restart & Run All**:
-
-   ```bash
-   jupyter notebook marketing_ab_test_analysis.ipynb
-   ```
-
-## Author
-
-**Lilit Poghosyan**
