@@ -118,11 +118,6 @@ The only cleaning needed was dropping the row counter column, renaming the colum
 ```text
 ├── marketing_ab_test_analysis.ipynb   # Full analysis with outputs
 ├── figures/                           # Charts saved by the notebook (PNG)
-│   ├── 01_group_sizes.png
-│   ├── 02_ads_distribution.png
-│   ├── 03_conversion_by_exposure.png
-│   ├── 06_conversion_rate_ab.png
-│   └── 07_incremental_conversions.png
 ├── outputs/
 └── README.md
 ```
